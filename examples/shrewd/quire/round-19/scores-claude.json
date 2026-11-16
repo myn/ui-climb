@@ -1,0 +1,280 @@
+{
+ "reviewer": "Claude Opus 5.5",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "cells": {
+  "overlay": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.2,
+    "layout": 9.3,
+    "colour": 9.2,
+    "copy": 9.2,
+    "steps": 9.2,
+    "overlay-speed": 9.3,
+    "proactive": 9.2,
+    "consistency": 9.3,
+    "polish": 9.2
+   }
+  },
+  "ask": {
+   "shrewd": {
+    "hierarchy": 9.2,
+    "typography": 9.2,
+    "layout": 9.1,
+    "colour": 9.2,
+    "copy": 9.2,
+    "steps": 9.3,
+    "overlay-speed": 9.2,
+    "proactive": 9.3,
+    "consistency": 9.2,
+    "polish": 9.2
+   }
+  },
+  "active-listening": {
+   "shrewd": {
+    "hierarchy": 9.2,
+    "typography": 9.2,
+    "layout": 9.1,
+    "colour": 9.2,
+    "copy": 9.2,
+    "steps": 9.2,
+    "overlay-speed": 9.2,
+    "proactive": 9.2,
+    "consistency": 9,
+    "polish": 9
+   }
+  },
+  "flow:ask": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.2,
+    "layout": 9.2,
+    "colour": 9.2,
+    "copy": 9.3,
+    "steps": 9.3,
+    "overlay-speed": 9.2,
+    "proactive": 9.3,
+    "consistency": 9.3,
+    "polish": 9.2
+   }
+  },
+  "flow:heard": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.2,
+    "layout": 9.2,
+    "colour": 9.2,
+    "copy": 9.2,
+    "steps": 9.3,
+    "overlay-speed": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.2,
+    "polish": 9.2
+   }
+  },
+  "live-coaching": {
+   "shrewd": {
+    "hierarchy": 9.4,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "overlay-speed": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.3,
+    "polish": 9.3
+   }
+  },
+  "visuals": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.4,
+    "steps": 9.3,
+    "overlay-speed": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.4,
+    "polish": 9.3
+   }
+  },
+  "flow:coaching": {
+   "shrewd": {
+    "hierarchy": 9.4,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.4,
+    "steps": 9.4,
+    "overlay-speed": 9.3,
+    "proactive": 9.4,
+    "consistency": 9.3,
+    "polish": 9.3
+   }
+  },
+  "flow:visual": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.4,
+    "steps": 9.3,
+    "overlay-speed": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.4,
+    "polish": 9.3
+   }
+  },
+  "dashboard": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.3,
+    "polish": 9.3
+   }
+  },
+  "notes": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "proactive": 9.2,
+    "consistency": 9.2,
+    "polish": 9.3
+   }
+  },
+  "flow:past-decision": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.2,
+    "polish": 9.3
+   }
+  },
+  "flow:follow-up": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "proactive": 9.2,
+    "consistency": 9.3,
+    "polish": 9.3
+   }
+  },
+  "session-page": {
+   "shrewd": {
+    "hierarchy": 9.2,
+    "typography": 9.1,
+    "layout": 9.1,
+    "colour": 9.1,
+    "copy": 9.2,
+    "steps": 9.1,
+    "proactive": 9.1,
+    "consistency": 9.2,
+    "polish": 9.1
+   }
+  },
+  "flow:retro": {
+   "shrewd": {
+    "hierarchy": 9.2,
+    "typography": 9.2,
+    "layout": 9.2,
+    "colour": 9.1,
+    "copy": 9.3,
+    "steps": 9.2,
+    "proactive": 9.1,
+    "consistency": 9.2,
+    "polish": 9.2
+   }
+  },
+  "settings": {
+   "shrewd": {
+    "hierarchy": 9.2,
+    "typography": 9.2,
+    "layout": 9.2,
+    "colour": 9.2,
+    "copy": 9.2,
+    "steps": 9.2,
+    "proactive": 9.2,
+    "consistency": 9.2,
+    "polish": 9.2
+   }
+  },
+  "flow:first-session": {
+   "shrewd": {
+    "hierarchy": 9.2,
+    "typography": 9.2,
+    "layout": 9.2,
+    "colour": 9.2,
+    "copy": 9.2,
+    "steps": 9.2,
+    "overlay-speed": 9.2,
+    "proactive": 9.2,
+    "consistency": 9.2,
+    "polish": 9.1
+   }
+  },
+  "flow:mode": {
+   "shrewd": {
+    "hierarchy": 9.2,
+    "typography": 9.2,
+    "layout": 9.2,
+    "colour": 9.2,
+    "copy": 9.2,
+    "steps": 9.2,
+    "proactive": 9.2,
+    "consistency": 9.2,
+    "polish": 9.2
+   }
+  }
+ },
+ "rules": {
+  "No mono or typewriter fonts": true,
+  "One screen only": true,
+  "Hidden mode stays out of shares and never takes focus": true,
+  "The base palette is kept": true,
+  "No action needs a keyboard shortcut": true
+ },
+ "findings": [
+  "overlay: [taste] solid: Point 7 is met. The See-through tooltip now sits inside the Overlay (x 669 to 986, inside the Overlay's 432 to 1008), directly above the action row, and its arrow tip is at about x=712 against the button's centre at about x=708 (the button runs 655 to 762). That is close enough to read as pointing at the button, in both themes. Two small things are left, both preference: the tooltip box is offset to the right of the button rather than centred over it, and the arrow tip touches the 'and 2 more' link in the Files row. Covering content while you hover is normal. (at most 1 tenth, not stacked)",
+  "overlay: [taste] menu: Point 6 is met in substance. There is one outline (the left edge at x=432 is the same at y=165 and y=300), one shadow, no corner notches, and the shadow band is gone (every pixel from y=164 to y=208 is the panel colour, 33 in dark and 255 in light). A 1 px hairline still runs at y=163 between the slot and the first menu row. It runs full-bleed (433 to 1006) like the hairline between the bar and the slot at y=100, while the menu's own group dividers are inset (442 to 997). So it reads as a section break inside one panel, not as a seam between two cards. The contract's wording, 'no rule at the join', is not met literally, so I note it here. I do not count it as a defect. (at most 1 tenth, not stacked)",
+  "overlay: [evidence not supplied] attach, solid, peek: Carried. Tom is sharing, but the Overlay stays top-centre. The share move is shown only in sharing ('Moved aside while you share'), where you are the one sharing. A still cannot show whether the move is waiting in the other three states. (0)",
+  "ask: [defect] behavioral: Point 1 names behavioral among the states that get the 64 px slot at the same y. Interview and interviewpaused now have it ('Listening · nothing to add yet' with 'Ask about this call…' on one centre line), but behavioral still has none: the 'Answered for you · one story from your résumé' header sits right under the bar at y 118, where every other Overlay state has the slot. A Coach tip or a new answer during the behavioral round has no place to land, and the read-aloud layout looks different between the two interview rounds. This is why the previous finding stays 'not fixed'; it is now one state, not three. (1 tenth (active-listening))",
+  "ask: [defect] interview, interviewpaused, behavioral: The cheap item 'Dana's avatar no longer shows through behind the interview lines' is not met. The redraw put an opaque backing behind the Say lines only, so the 'DO' ghost has moved up and now shows behind the end of the Heard quote ('…in a string, or -1.”'), in both themes. That partial backing also splits the See-through panel into hard-edged bands: translucent from the slot down to the Heard line, opaque behind Say from about y 248 to 348, and translucent again behind the actions. In light this reads as a grey block, then a cream block, then grey again, with a visible vertical seam at x 1068 where the shared pad ends behind the panel. Behavioral shows the same three bands. (1 tenth (active-listening; Claude's cheap-item cap))",
+  "ask: [defect] heldnew, auto, history: Out-of-contract observation for the next round, cost nothing now: Priya's February question carries three different times. The slot in heldnew says 'Priya asked: “Is February still realistic?” · 19:40', auto arrives at 19:44 with a fuller wording and a different answer, and Earlier answers lists only one row, at 19:43. The 19:40/19:41 answer from heldnew is not in Earlier answers at all, so a user cannot find the answer they were shown. (0 (out of contract))",
+  "ask: [taste] longread, longnew, longend, held, heldnew: The expanded reading box is still tight: about two lines of a part at a time, with a faded half line under the '4 parts / Show fewer' header. It reads, and it now keeps its place when help arrives, but the window is small for 'read the answer while talking'. (0 to 1 tenth)",
+  "ask: [evidence not supplied] drafting/drafted, held/heldnew, longread/longnew, interviewpaused: Every before and after pair keeps the draft, the held answer and its scroll position to the pixel, and no 'Ask a follow-up' appears under a full slot. No still can prove that focus and the caret are kept, or that listening goes on while updates are paused. (0)",
+  "live: [defect] livecoach: This is out of contract, for the following round. On the live page, the tinted footer band that holds View Coach history and \"Coaching: Balanced · Change…\" starts about 18 px left of the column that the bar, the slot and the composer share (about x 202 against x 220), while its right edge lines up with theirs at x 900. So the one band in the Coach view hangs out to the left of everything above and below it. This was the same in round 18. (0 (out of contract))",
+  "live: [taste] coachtab, objectives, notip, livecoach: With the pace warning on, the bar's status reads \"Slow down\" while the quiet slot right under it reads \"Listening · nothing to add yet\". Both follow the agreed lists, but two state words sit one above the other. A quiet line without \"Listening\" while Slow down shows would read as one state. (0)",
+  "live: [evidence not supplied] visualwin, visualshared: Two runtime claims no screenshot can show: that \"Showing in Teams\" appears only once Teams has really shared the window \"Shrewd · Lisbon go-live\", and that Hidden keeps the Overlay out of the share. (0)",
+  "meetings: [evidence not supplied] regen: Carried: no still shows a failed rewrite with its retry (round 15 contract, confirm). It is not in this batch's screen list, so it costs nothing. (0)",
+  "meetings: [taste] found: Carried taste, so it does not cost again: Notes opened from the search answer has no speaker notice, while notes, notehover and drawer show it. It keeps the marked line higher, which may be the point. (0)",
+  "session: [defect] live: New with the redraw: the Earlier band moved down about 3 px ('Earlier in this call · 5' at y about 618, was 615). The tops of two controls from the answer above (under 'Files 1 pricing-policy.pdf', at about x 300–360 and 370–415) now peek out as thin slivers just above the band's top rule at y about 597, in both themes. In round 18 nothing showed there. It is a small cut edge on the one surface where point 11 and point 15 asked for nothing to be sliced, and it reads as a rendering glitch rather than a hint to scroll. (1 in each)",
+  "session: [evidence not supplied] live: Point 11 is met as drawn: the Earlier box shows three whole rows (20:01 Coach tip, 19:43 Answered for you, 15:55 Coach tip), each with Open. The round 18 divider under the last row is gone, and the box has its own bottom edge at about y 751, clear of the composer band at about y 762. That the box scrolls on its own to the other two of the five is still a runtime claim: no scrollbar or scrolled state is drawn. (0)",
+  "session: [evidence not supplied] retro: The cheap item 'Objectives: 3 of 4 met' and the round 18 point 10 Retro tip are still below the fold of the retro screen in this batch. I confirmed both on this round's coach screen (coach-light.png, outside this batch): the heading reads 'Objectives: 3 of 4 met', and the tip reads 'Ask Tom: does the per-seat math fit? You have talked for 70 seconds.' with the reason as its own sentence. Costs nothing. (0)",
+  "session: [evidence not supplied] roomhow: Out of contract, carried for the following round: 'How this works' has the same underlined style in review (closed) and roomhow (open), with no chevron or pressed state to show that it is open or how to close it. Costs nothing this round. (0)",
+  "session: [taste] highlights: The Highlights lead still sets on a shorter measure (wrapping at about x 835) than the How you did and How the room took it leads (to about x 1100). The three Retro views' leads have different widths. Taste only. (0.1 at most)",
+  "setup: [defect] live: New in this redraw. The Earlier band moved down about 3 px, and now the tops of two outlined buttons from the answer's next row show for 2 px (y 597 to 598, about x 300 to 360 and x 370 to 418), just above the answer area's bottom rule at y 599, under 'Files · 1 pricing-policy.pdf'. This happens in both themes. In round 18 that strip was clean. The slivers look like stray marks or a cut control between the answer and the Earlier band. (1 tenth)",
+  "setup: [evidence not supplied] live: The Earlier box now shows three whole rows, with no divider at its foot and its own 2 px rounded bottom edge (point 11 is met as drawn). No still can prove that it scrolls by itself, apart from the answer. (0)"
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "reviewer": "GPT Sol",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cells": {
+  "overlay": {
+   "shrewd": {
+    "hierarchy": 9.4,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.4,
+    "steps": 9.3,
+    "overlay-speed": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.3,
+    "polish": 9.3
+   }
+  },
+  "ask": {
+   "shrewd": {
+    "hierarchy": 9.4,
+    "typography": 9.3,
+    "layout": 9.4,
+    "colour": 9.3,
+    "copy": 9.4,
+    "steps": 9.4,
+    "overlay-speed": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.4,
+    "polish": 9.4
+   }
+  },
+  "active-listening": {
+   "shrewd": {
+    "hierarchy": 9.4,
+    "typography": 9.4,
+    "layout": 9.2,
+    "colour": 9.3,
+    "copy": 9.4,
+    "steps": 9.5,
+    "overlay-speed": 9.4,
+    "proactive": 9.1,
+    "consistency": 9.2,
+    "polish": 9.4
+   }
+  },
+  "flow:ask": {
+   "shrewd": {
+    "hierarchy": 9.4,
+    "typography": 9.3,
+    "layout": 9.4,
+    "colour": 9.3,
+    "copy": 9.4,
+    "steps": 9.5,
+    "overlay-speed": 9.4,
+    "proactive": 9.4,
+    "consistency": 9.4,
+    "polish": 9.4
+   }
+  },
+  "flow:heard": {
+   "shrewd": {
+    "hierarchy": 9.4,
+    "typography": 9.4,
+    "layout": 9.4,
+    "colour": 9.3,
+    "copy": 9.4,
+    "steps": 10,
+    "overlay-speed": 9.4,
+    "proactive": 9.4,
+    "consistency": 9.4,
+    "polish": 9.4
+   }
+  },
+  "live-coaching": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.2,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "overlay-speed": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.2,
+    "polish": 9.2
+   }
+  },
+  "visuals": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "overlay-speed": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.3,
+    "polish": 9.3
+   }
+  },
+  "flow:coaching": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "overlay-speed": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.3,
+    "polish": 9.3
+   }
+  },
+  "flow:visual": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "overlay-speed": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.3,
+    "polish": 9.3
+   }
+  },
+  "dashboard": {
+   "shrewd": {
+    "hierarchy": 9.4,
+    "typography": 9.3,
+    "layout": 9.4,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "proactive": 9.4,
+    "consistency": 9.4,
+    "polish": 9.4
+   }
+  },
+  "notes": {
+   "shrewd": {
+    "hierarchy": 9.4,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "proactive": 9.4,
+    "consistency": 9.4,
+    "polish": 9.3
+   }
+  },
+  "flow:past-decision": {
+   "shrewd": {
+    "hierarchy": 9.4,
+    "typography": 9.3,
+    "layout": 9.4,
+    "colour": 9.3,
+    "copy": 9.4,
+    "steps": 9.4,
+    "proactive": 9.4,
+    "consistency": 9.4,
+    "polish": 9.4
+   }
+  },
+  "flow:follow-up": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.4,
+    "steps": 9.3,
+    "proactive": 9.4,
+    "consistency": 9.4,
+    "polish": 9.3
+   }
+  },
+  "session-page": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.4,
+    "steps": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.3,
+    "polish": 9.3
+   }
+  },
+  "flow:retro": {
+   "shrewd": {
+    "hierarchy": 9.4,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.4,
+    "steps": 9.4,
+    "proactive": 9.3,
+    "consistency": 9.4,
+    "polish": 9.3
+   }
+  },
+  "settings": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.3,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.4,
+    "polish": 9.3
+   }
+  },
+  "flow:first-session": {
+   "shrewd": {
+    "hierarchy": 9.4,
+    "typography": 9.3,
+    "layout": 9.2,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "overlay-speed": 9.4,
+    "proactive": 9.3,
+    "consistency": 9.3,
+    "polish": 9.3
+   }
+  },
+  "flow:mode": {
+   "shrewd": {
+    "hierarchy": 9.3,
+    "typography": 9.3,
+    "layout": 9.2,
+    "colour": 9.3,
+    "copy": 9.3,
+    "steps": 9.3,
+    "proactive": 9.3,
+    "consistency": 9.4,
+    "polish": 9.2
+   }
+  }
+ },
+ "rules": {
+  "No mono or typewriter fonts": true,
+  "One screen only": true,
+  "Hidden mode stays out of shares and never takes focus": true,
+  "The base palette is kept": true,
+  "No action needs a keyboard shortcut": true
+ },
+ "findings": [
+  "overlay: [defect] menu-dark, menu-light: The menu now has one continuous outer outline, with no desktop gap, rounded corner notch or shadow band at the join. A full-width horizontal rule still separates the help slot from Pause listening, at about y=163 in both themes. Round-18 contract point 6 explicitly requires no rule at that join. This is the small remaining part of the previous attachment finding: the boundary still visually divides the upper Overlay from its menu. The removed gap, corners and shadow are not charged again. (about 1 tenth in polish, once for the remaining join rule)",
+  "overlay: [evidence not supplied] all 28 Quire screenshots, six shared screenshots and 16 reference screenshots: All 78 screenshots named in this brief were opened and visually inspected, including both themes and every benchmark reference. The oversized Pluely chats reference was inspected using an in-memory resized preview after the original exceeded the viewer limit. Paused now keeps time, Peek and its divider in place, with Resume occupying Stop's equally wide region. Error retains its recovery panel without a slot input. Suggestion now has reason and time on line 2, then Copy and Open at the right. The fixed slot height, single-input treatment, and normally wrapped See-through tooltip remain corrected; the tooltip is now inside the Overlay above its action. These fixes stop costing points. The previous evidence entry is marked not fixed solely because its runtime limits remain, not because its screenshot-inspection statement is a defect. Hidden mode is visibly represented, the palette and proportional fonts are kept, the shown tasks remain on one screen, and visible controls support mouse use with shortcuts confined to tooltips. Screenshots cannot prove capture exclusion, non-activation, actual meeting detection, recognition accuracy, latency, deferred movement, hold/release behavior or in-place input growth. No application, implementation, integration or runtime tests were run. Those unverified behavior claims cost nothing. (0)",
+  "ask: [defect] behavioral-dark/light: The answer header still starts immediately under the bar, at about y=100, and Say starts at about y=170. There is no separate 64 px help slot or quiet input. Round-18 contract point 1 explicitly includes behavioral. Interview and interviewpaused now have the slot, and solo places its single composer under the bar with the screen-reading line below, so those portions of the previous finding stop costing points. Behavioral still lacks the agreed place for incoming help while its read-out lines stay put. This is an unmet visible requirement in active-listening, not an inference about runtime movement. (About 2–3 tenths in active-listening, once across both themes. No deduction in ask or either specified flow for this state.)",
+  "ask: [taste] insight-dark/light; longread-dark/light; solo-dark/light: The prior preference for more prominent sources and utility controls remains a preference. Their existing visual weight does not carry a deduction. (0 tenths.)",
+  "ask: [evidence not supplied] all listed Shrewd states; longread → longnew; held → heldnew; drafting → drafted: I opened and visually inspected all 108 unique screenshots named in this brief, including both themes and every reference-only image. The old reading-viewport defect is fixed: the More box, visible numbers bullet, lower section heading, Files and action row retain their positions in longread → longnew and held → heldnew. No Ask a follow-up button appears below either slot. The draft and composer position remain unchanged in drafting → drafted; longend shows the final content with Show fewer and the lead retained. The earlier Brief ordering, sharing-input and PR history fixes remain intact. Still images cannot establish focus preservation, capture exclusion, update timing, recognition accuracy, real integration detection or invisible hit-target bounds. Hidden shields and visible mouse controls satisfy the depicted design rules. I did not run the app or tests; runtime correctness remains unverified and costs nothing. (0 tenths.)",
+  "live: [defect] objectives-dark.png; objectives-light.png: The redrawn Objectives frame now shows Show, with all three completed rows hidden. In round 18 this same state showed the unfinished objective first, the three completed rows and Show fewer while the add-objective field was open. Round 16 point 16 still requires that expanded group, and round 18 point 1 requires objectives to fit within 480 px with the new slot. The new frame fits, but achieves that by omitting the required expanded state; none of the listed Quire frames supplies it. The user-visible expanded layout and access to the completed objectives within the height budget therefore remain unproved. This is a new omission of the contracted expanded state; the earlier ordering fault has not returned, and the current collapsed panel does not exceed 480 px. It affects live-coaching only; objectives is not a frame in flow:coaching. (About 1 tenth in each named category, once for the missing contracted expanded state; no deduction in flow:coaching.)",
+  "live: [evidence not supplied] all listed Quire states and shared sequences; both themes: All 71 distinct screenshots listed in the brief, including every benchmark reference, were opened and inspected. The three visual defects newly recorded in my round 18 Quire findings are fixed: coachtab, objectives and notip retain the 64 px quiet slot at the same position as Ask and Visual; tipheld has no Ask a follow-up; livecoach has no slot input above its bottom composer; and the saved Visuals heading clears the tab rule. The held answer keeps its words, crop and position through quiet → tip → put-away. Open Coach shows the same 21:06 tip, and history opens at Coach tips during the call with that tip marked. The Visual preserves unchanged milestones around Priya's 19:59 agreement, and the presentation sequence names the exact window, shows its selection and then Showing in Teams, without a slot input while shared. The earlier evidence findings marked not fixed are continuing limits only: stills cannot establish actual focus preservation, capture exclusion, timing, recognition accuracy or real sharing detection. No runtime or Native E2E verification was performed. These limits cost nothing and do not fail the Hidden-mode design rule. (0)",
+  "meetings: [taste] notes-dark.png, notes-light.png, select-dark.png and select-light.png: Secondary navigation and metadata still feel small beside the document text. This remains a preference, not an established contrast or mouse-target failure. The previous taste finding carries no deduction. (0 tenths; taste.)",
+  "meetings: [evidence not supplied] all reviewed Shrewd states, especially mailapp, mailopened and mailfail, in both themes: Opened and inspected all 67 distinct screenshots listed in this brief: 34 Shrewd screenshots and 33 reference screenshots. References were not scored; marketing crops were treated as reference crops. No new scoring defects were found under the round 15 through round 18 contracts. The search dropdown and backdrop begin below the whole Sessions title, and the rail is now fully bright and uncut in both themes. The first-run examples stay inside the fully visible card, with the heading and introduction clear; Quire shows the quiet input and the complete arrival with its source and actions. Notes keeps the speaker notice in a compact header, about 116 px from title to tabs; notehover preserves the page position and content and points at 19:59; the drawer marks Priya's 19:59 agreement rather than your 19:54 proposal. Those earlier fixes remain fixed and cost nothing. The matched Open line is highlighted in found. Generation, retry, deletion confirmation and rewriting have clear visible states; unavailable email and Export controls read as disabled. The email helper now breaks after Written from the Notes. The illustrative mail composer keeps both recipients, subject and body, and Shrewd retains the draft with Mail app requested, Open again and Copy. The mailfail message matches the agreed wording and offers Try again and Copy. Shared screens receive identical scores for both designs. The higher dashboard and past-decision layout, consistency and polish scores reflect the corrected search backdrop. Still screenshots cannot establish capture exclusion, focus behavior, recognition accuracy, generation timing, actual mail integration or launch detection. Hidden is visibly available, and the design does not depend on being seen in a share; unproven capture behavior is not a rule failure. Runtime evidence remains not supplied and costs nothing. This was an independent screenshot assessment within the requested two-member review; no app execution, detector, browser injection, source implementation inspection or runtime tests were performed. (0 tenths.)",
+  "session: [taste] transcript-dark/light, asks-dark/light: The previous preference for larger secondary timestamps, file labels and compact action text remains taste and carries no deduction. The body text remains primary, the Brief text starts with the other Asks, and Took 2.3 s ends on the Close button's right edge. (0)",
+  "session: [evidence not supplied] live-dark/light: The visible history fix remains intact and meets the round 18 contract's added visual detail: three complete rows sit inside the Earlier box, its bottom edge is clear above the composer, and there is no extra divider beneath the final row. The two-line Coach cue, reason and call time, Open Coach, dismiss, labelled Peek, spelled-out objectives count, Slow down status, answer metadata and named-parts fold remain readable. No new visible defect is found. Independent scrolling, preservation of the held answer and draft, collapse behaviour and arrival timing cannot be verified by these stills. The empty live-page slot is not pictured, so equality of its quiet and full geometry is not demonstrated; no claim that the missing visual state has been verified is made. The previous finding is marked fixed for its visible history boundary; its runtime limitations remain unverified and uncharged. (0)",
+  "session: [evidence not supplied] transcript-dark/light, asks-dark/light, retro-dark/light, review-dark/light, roomhow-dark/light, highlights-dark/light: The shared completed-Session views preserve the previous visible strengths. How you did leads with the outcome and one concrete improvement, then metrics and timed moments. How the room took it keeps a plain-language interpretation, a Transcript-only estimate label, distinguishable solid and dashed curves, and complete A/B/C rows with aligned Open buttons. How this works explains the index and its limits in place. Highlights keeps aligned type and text columns, baseline timestamps and an Open button on every exchange. The three Retro views stay inside the Session, with the post-call Ask collapsed. No new visible defect is found in either theme. The previous finding is marked fixed for these visible requirements; estimate accuracy, Open destinations, actual hit areas, capture exclusion and focus remain unverified and cost nothing. Hidden is shown, and no design dependency on being visible in a share is shown. All 28 screenshots listed in the brief were opened and inspected; no runtime tests were run. (0)",
+  "setup: [defect] flow:mode / menu-dark, menu-light: The outer shape is now one continuous panel, and the old rounded join and shadow band are gone. A full-width horizontal rule remains directly between the Brief slot and Pause listening, at about y=163. Round-18 contract point 6 explicitly requires no rule at this join. It still divides the attached menu from the Overlay instead of completing the agreed continuous surface. This is a small remaining join defect, not a charge for the fixed corners or shadow. (About 1 tenth in layout and polish for flow:mode, counted once across both themes.)",
+  "setup: [defect] flow:first-session / live-dark, live-light: Earlier help now has three whole rows, its own clear bottom edge, and no extra divider inside its foot, satisfying round-18 point 11 visually. At the top of that band, however, tiny rounded button tops from the requested answer are exposed immediately below Files and cut off by the history boundary at about y=599. Their labels and usable bodies are hidden. Comparing the round-18 live frame shows that these visible button slivers are introduced by this redraw. They make the answer's lower edge look clipped. This does not establish whether scrolling can reveal those actions at runtime. (About 1 tenth in layout and polish for flow:first-session; one deduction for the visible clipping across both themes. No overlay-speed deduction for the Session page.)",
+  "setup: [defect] flow:first-session / live-dark, live-light: The 19:43 Earlier-help row reads Answered for you and gives the question, but has no speaker initials. Round-16 point 13 explicitly keeps speaker initials with automatic answers in Earlier answers, as well as in the slot and arrival. The first-run arrival supplies Priya's PR; the saved live-page row loses that speaker cue. This is a continuing contract omission, not a new redraw defect or a second charge for history layout. (About 1 tenth in consistency for flow:first-session, counted once across both themes.)",
+  "setup: [evidence not supplied] general-dark, general-light; firstrun-dark, firstrun-light; detected-dark, detected-light; idle-dark, idle-light; live-dark, live-light; mode-dark, mode-light; modeactive-dark, modeactive-light: The previous item is marked not fixed only for its evidence-only runtime claims; its earlier visual fixes remain fixed and cost nothing. The first-run heading, compact setup row, both examples and numbered guidance remain fully visible. The gap after the second example is restored. The Mode description now keeps the same words, line breaks and left edge before and after activation, while Saved remains beside the checked Active for this Session chip; that round-18 requirement is satisfied. The live Coach cue remains complete, and the bar reads Slow down. Hidden mode, its focus setting, Start Session, Not now and the mouse task routes are visible. Still images cannot prove capture exclusion, non-activation, successful persistence or activation, real meeting detection, recognition accuracy, timing, independent history scrolling, or preservation of focus and reading position. These claims cost nothing, and the Hidden-mode design rule passes as the brief specifies. All 50 unique screenshots listed in this brief were opened and inspected, including both themes and all reference screenshots. No app execution or runtime tests were performed. (0; retained fixes are not charged, and runtime evidence is not scored.)"
+ ]
+}

@@ -1,0 +1,259 @@
+{
+  "design": "quire",
+  "round": 19,
+  "date": "2026-11-15",
+  "claim": "done",
+  "rules": {
+    "No mono or typewriter fonts": true,
+    "One screen only": true,
+    "Hidden mode stays out of shares and never takes focus": true,
+    "The base palette is kept": true,
+    "No action needs a keyboard shortcut": true
+  },
+  "features": {
+    "Control bar": [
+      "idle",
+      "menu"
+    ],
+    "Ask": [
+      "compose",
+      "solo",
+      "working",
+      "insight",
+      "nothing",
+      "error"
+    ],
+    "Up-arrow recall": [
+      "solo",
+      "insight",
+      "history"
+    ],
+    "Quick actions": [
+      "solo",
+      "compose"
+    ],
+    "Sourced Insight": [
+      "working",
+      "insight"
+    ],
+    "Screen use and Smart mode": [
+      "working",
+      "general"
+    ],
+    "Chat": [
+      "solo",
+      "home"
+    ],
+    "Hidden mode": [
+      "sharing",
+      "image",
+      "menu",
+      "general",
+      "tray"
+    ],
+    "Visible mode": [
+      "live"
+    ],
+    "Meeting detected pop-up": [
+      "detected",
+      "general"
+    ],
+    "New Session control": [
+      "home",
+      "tray",
+      "detected"
+    ],
+    "Pause": [
+      "paused"
+    ],
+    "Inactivity check": [
+      "inactive"
+    ],
+    "Active listening and Pace": [
+      "auto",
+      "interview",
+      "livetools"
+    ],
+    "Talk-time meter and Pace cues": [
+      "auto",
+      "livetools"
+    ],
+    "Live coaching": [
+      "tip",
+      "coachtab",
+      "livetools"
+    ],
+    "Coach notes list": [
+      "coach"
+    ],
+    "Answer in my voice": [
+      "voice",
+      "livetools"
+    ],
+    "Interview layout": [
+      "interview",
+      "behavioral",
+      "mode"
+    ],
+    "Dashboard home": [
+      "home",
+      "firstrun"
+    ],
+    "Search or ask": [
+      "search"
+    ],
+    "First run": [
+      "firstrun"
+    ],
+    "Notes": [
+      "notes",
+      "generating",
+      "notesfail"
+    ],
+    "Notepad": [
+      "live",
+      "notes"
+    ],
+    "Transcript and speaker names": [
+      "live",
+      "transcript",
+      "notes"
+    ],
+    "Snapshots": [
+      "notes",
+      "general"
+    ],
+    "Session Asks": [
+      "asks"
+    ],
+    "Token usage": [
+      "asks",
+      "general"
+    ],
+    "Retro": [
+      "retro",
+      "general"
+    ],
+    "Follow-up email": [
+      "email",
+      "mailapp",
+      "mailopened",
+      "mailfail"
+    ],
+    "Modes": [
+      "modes",
+      "mode"
+    ],
+    "Per-Session sources": [
+      "detected"
+    ],
+    "Recipes": [
+      "recipes",
+      "solo"
+    ],
+    "Brief": [
+      "asks"
+    ],
+    "General settings": [
+      "general"
+    ],
+    "Audio and Transcript retention": [
+      "audio"
+    ],
+    "Shortcuts": [
+      "keybinds",
+      "tooltip"
+    ],
+    "User dictionary": [
+      "dictionary"
+    ],
+    "Tray": [
+      "tray"
+    ],
+    "Auto-stop": [
+      "autostop",
+      "notes",
+      "general"
+    ],
+    "Visuals": [
+      "visualtab",
+      "visual",
+      "visualpre",
+      "visualwin",
+      "visualpick",
+      "visualshared",
+      "visuals"
+    ],
+    "Push to talk": [
+      "ptt",
+      "keybinds",
+      "mute"
+    ],
+    "Image input": [
+      "attach",
+      "image",
+      "region"
+    ],
+    "Fact-check": [
+      "compose"
+    ],
+    "Model and response time": [
+      "asks"
+    ],
+    "Objectives": [
+      "objectives",
+      "mode",
+      "coach"
+    ],
+    "Next tip": [
+      "tip",
+      "notip"
+    ],
+    "Delete Transcript lines": [
+      "select",
+      "confirm",
+      "regen"
+    ],
+    "My notes / Enhanced": [
+      "notes"
+    ],
+    "Transcript drawer": [
+      "drawer"
+    ],
+    "Engagement and sentiment": [
+      "review",
+      "roomhow"
+    ],
+    "Highlights and Chapters": [
+      "transcript",
+      "highlights"
+    ],
+    "Mode templates gallery": [
+      "templates"
+    ],
+    "Dashboard live page tabs": [
+      "live",
+      "livecoach",
+      "livevisual"
+    ],
+    "Live help settings": [
+      "livetools"
+    ],
+    "See-through Chat window": [
+      "interview",
+      "solid",
+      "menu",
+      "mode"
+    ],
+    "Peek": [
+      "longread",
+      "peek"
+    ],
+    "Long Insight": [
+      "long",
+      "longread",
+      "longnew",
+      "menu"
+    ]
+  }
+}

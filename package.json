@@ -1,0 +1,8 @@
+{
+  "name": "ui-climb",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"skills/ui-climb/scripts/*.test.ts\""
+  }
+}

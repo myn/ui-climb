@@ -1,0 +1,23 @@
+{
+  "product": "myapp",
+  "categories": {
+    "hierarchy": "Hierarchy: the most important thing on the screen reads first",
+    "typography": "Typography: type size, weight, line length and rhythm",
+    "layout": "Layout and spacing: alignment, grouping, density, breathing room",
+    "colour": "Colour and contrast, in light and dark",
+    "copy": "Copy clarity: every label and message says what it means in plain words",
+    "steps": "Steps to finish a task: how few clicks and screens the flow takes",
+    "consistency": "Consistency across surfaces: the same thing looks and behaves the same everywhere",
+    "polish": "Craft and polish: edges, states, icons, details"
+  },
+  "rules": [
+    "No mono or typewriter fonts",
+    "Every action has a visible control"
+  ],
+  "flows": {
+    "flow:signup": "First launch to the first useful screen"
+  },
+  "maxRounds": 20,
+  "driftLimit": 0.5,
+  "skip": {}
+}

@@ -1,0 +1,234 @@
+{
+  "design": "quire",
+  "round": 1,
+  "date": "2026-11-11",
+  "claim": "fail",
+  "rules": {
+    "No mono or typewriter fonts": true,
+    "One screen only": true,
+    "Hidden mode stays out of shares and never takes focus": true,
+    "The base palette is kept": true,
+    "No action needs a keyboard shortcut": false
+  },
+  "features": {
+    "Control bar": [
+      "idle",
+      "menu"
+    ],
+    "Ask": [
+      "compose",
+      "solo",
+      "working",
+      "insight",
+      "nothing",
+      "error"
+    ],
+    "Up-arrow recall": [
+      "solo",
+      "insight",
+      "history"
+    ],
+    "Quick actions": [
+      "solo",
+      "sharing"
+    ],
+    "Sourced Insight": [
+      "working",
+      "insight"
+    ],
+    "Screen use and Smart mode": [
+      "working",
+      "general"
+    ],
+    "Chat": [
+      "solo",
+      "home"
+    ],
+    "Hidden mode": [
+      "sharing",
+      "menu",
+      "general",
+      "tray"
+    ],
+    "Visible mode": [
+      "live"
+    ],
+    "Meeting detected pop-up": [
+      "detected",
+      "general"
+    ],
+    "New Session control": [
+      "home",
+      "tray",
+      "detected"
+    ],
+    "Pause": [
+      "paused"
+    ],
+    "Inactivity check": [
+      "inactive"
+    ],
+    "Active listening and Pace": [
+      "auto",
+      "interview",
+      "general"
+    ],
+    "Talk-time meter and Pace cues": [
+      "auto",
+      "general"
+    ],
+    "Live coaching": [
+      "auto",
+      "coachtab",
+      "general"
+    ],
+    "Coach notes list": [
+      "coach"
+    ],
+    "Answer in my voice": [
+      "voice",
+      "general"
+    ],
+    "Interview layout": [
+      "interview",
+      "behavioral",
+      "mode"
+    ],
+    "Dashboard home": [
+      "home",
+      "firstrun"
+    ],
+    "Search or ask": [
+      "search"
+    ],
+    "First run": [
+      "firstrun"
+    ],
+    "Notes": [
+      "notes",
+      "generating"
+    ],
+    "Notepad": [
+      "live",
+      "notes"
+    ],
+    "Transcript and speaker names": [
+      "live",
+      "transcript",
+      "notes"
+    ],
+    "Snapshots": [
+      "notes",
+      "general"
+    ],
+    "Session Asks": [
+      "asks"
+    ],
+    "Token usage": [
+      "asks",
+      "general"
+    ],
+    "Retro": [
+      "retro",
+      "general"
+    ],
+    "Follow-up email": [
+      "email"
+    ],
+    "Modes": [
+      "modes",
+      "mode"
+    ],
+    "Per-Session sources": [
+      "detected"
+    ],
+    "Recipes": [
+      "recipes",
+      "solo"
+    ],
+    "Brief": [
+      "asks"
+    ],
+    "General settings": [
+      "general"
+    ],
+    "Audio and Transcript retention": [
+      "audio"
+    ],
+    "Shortcuts": [
+      "keybinds",
+      "tooltip"
+    ],
+    "User dictionary": [
+      "dictionary"
+    ],
+    "Tray": [
+      "tray"
+    ],
+    "Auto-stop": [
+      "autostop",
+      "notes",
+      "general"
+    ],
+    "Visuals": [
+      "visualtab",
+      "visual",
+      "visualwin",
+      "visuals"
+    ],
+    "Push to talk": [
+      "ptt",
+      "keybinds",
+      "mute"
+    ],
+    "Image input": [
+      "attach",
+      "image",
+      "region"
+    ],
+    "Fact-check": [
+      "insight"
+    ],
+    "Model and response time": [
+      "insight"
+    ],
+    "Objectives": [
+      "objectives",
+      "mode",
+      "coach"
+    ],
+    "Next tip": [
+      "tip",
+      "notip"
+    ],
+    "Delete Transcript lines": [
+      "select",
+      "confirm",
+      "regen"
+    ],
+    "My notes / Enhanced": [
+      "notes"
+    ],
+    "Transcript drawer": [
+      "drawer"
+    ],
+    "Engagement and sentiment": [
+      "review"
+    ],
+    "Highlights and Chapters": [
+      "highlights",
+      "transcript"
+    ],
+    "Mode templates gallery": [
+      "templates"
+    ],
+    "Dashboard live page tabs": [
+      "live",
+      "livecoach",
+      "livevisual"
+    ],
+    "Live tools settings": [
+      "livetools"
+    ]
+  }
+}
