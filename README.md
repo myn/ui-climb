@@ -23,31 +23,56 @@ examples/shrewd/          real rounds from the Shrewd climb (see below)
 
 `ui-climb` depends on `council`, which is vendored here unchanged with its license.
 
-## Install
+## Set it up with Claude
 
-Copy both skill folders where your agent finds skills:
+Open Claude Code (or Codex) in the project whose UI you want to climb, and paste:
+
+```text
+Set up the ui-climb skill from https://github.com/myn/ui-climb in this project:
+clone it to a temp folder, copy skills/ui-climb and skills/council into .claude/skills/,
+then follow the "Setup" section of .claude/skills/ui-climb/SKILL.md.
+```
+
+The agent then does the whole setup, asking you only what it can't work out from your code:
+
+1. **Installs both skills** into `.claude/skills/` (and `.agents/skills/` if you use Codex).
+2. **Checks what you need**, and tells you the fix for anything missing:
+   - Node 22.18 or newer (the scripts are `.ts` files Node runs directly; no packages to install);
+   - both judges: Claude Opus, and GPT Sol through the Codex CLI, logged in;
+   - Playwright, for screenshots.
+3. **Asks about your product**: what it is, which apps to beat, your surfaces (screen groups) and task flows, any pass/fail rules, and which themes you ship.
+4. **Writes `design/climb/rubric.json`** from the template, with your answers.
+5. **Writes a screenshot script** for your UI: every state, true size, every theme. It runs it once so you can check the PNGs.
+6. **Tells you how to start**: say "run a ui-climb round".
+
+Setup ends there; the first round only starts when you ask for it.
+
+The judges run in parallel best in T3 Code, which can start a Claude and a Codex delegate at once. Elsewhere, the agent uses your harness's subagents, with `codex exec` for the GPT Sol judge.
+
+<details>
+<summary>Set it up by hand</summary>
 
 ```sh
 git clone https://github.com/myn/ui-climb
-cp -r ui-climb/skills/ui-climb ui-climb/skills/council ~/.claude/skills/      # Claude Code, all projects
-# or into a project: <repo>/.claude/skills/  (Claude Code)  or  <repo>/.agents/skills/  (Codex)
+cp -r ui-climb/skills/ui-climb ui-climb/skills/council <your repo>/.claude/skills/   # or ~/.claude/skills/ for all projects; .agents/skills/ for Codex
+mkdir -p <your repo>/design/climb
+cp ui-climb/skills/ui-climb/templates/rubric.json <your repo>/design/climb/
 ```
 
-You need:
+Then edit `rubric.json`: set `product`, your categories, your pass/fail rules and your flows. Write a script that shoots every state of your UI at true size, in each theme (Playwright works), and use the same script every round.
 
-- **Node 22.18 or newer** (it runs `.ts` files directly). No packages to install.
-- **Two judges from two providers.** The skill is written for Claude Opus and GPT Sol through Codex. It runs best in T3 Code, which can start both as delegates in parallel; elsewhere, use your harness's subagents (`codex exec` works for the Codex judge).
-- **A way to shoot screenshots** of every state of your UI, at true size, in each theme, from a script (Playwright works). The same script every round.
+</details>
 
 ## Use
 
-1. Make a climb folder (say `design/climb/`) and copy `templates/rubric.json` into it. Set `product`, your categories, your pass/fail rules and your flows.
-2. Ask your agent: **"run a ui-climb round"**. Round 1 scores your design and the benchmark apps; their scores are frozen from then on.
-3. After each round, ask it to **interview the judges** and write the contract. Build the next round to the contract.
-4. Check the verdict any time:
+Just ask your agent:
+
+- **"run a ui-climb round"**: shoots the screens, briefs both judges, saves their scores and records the verdict. Round 1 scores your design and the benchmark apps; the benchmark scores are frozen from then on.
+- **"interview the judges"**: after a round, gets both judges to agree and sign a contract of exactly what moves each score. Build the next round to it.
+- **"what's the climb verdict?"**: runs the verdict script, which you can also run yourself:
 
 ```sh
-node skills/ui-climb/scripts/climb.ts design/climb/<design>
+node .claude/skills/ui-climb/scripts/climb.ts design/climb/<design>
 # round 1: fail
 # round 2: climb
 #   claude gives myapp 8.6 for hierarchy on settings
@@ -56,7 +81,7 @@ node skills/ui-climb/scripts/climb.ts design/climb/<design>
 
 The verdict is one of **void** (a benchmark score drifted, so the judges' scale moved), **fail** (a rule broken, or a feature with no screen), **climb**, **stopped** (hit `maxRounds`), or **done**. The script exits non-zero if a round's saved claim does not match.
 
-Run the tests with `npm test`.
+To run this repo's own tests, use `npm test`.
 
 ## The rules that make it work
 

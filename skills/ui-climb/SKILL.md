@@ -1,6 +1,6 @@
 ---
 name: ui-climb
-description: Run one round of a UI climb - two AI judges (Claude Opus and GPT Sol through Codex) score your design's screenshots against benchmark apps, category by category, and the round is saved with a verdict computed from the files. Between rounds, interview the judges until they sign a contract of exactly what moves each score. Use when asked to run a climb round, score a design against a benchmark app, or "ui-climb".
+description: Run one round of a UI climb - two AI judges (Claude Opus and GPT Sol through Codex) score your design's screenshots against benchmark apps, category by category, and the round is saved with a verdict computed from the files. Between rounds, interview the judges until they sign a contract of exactly what moves each score. Use when asked to set up ui-climb, run a climb round, interview the judges, score a design against a benchmark app, or "ui-climb".
 ---
 
 # UI climb: one round
@@ -11,13 +11,22 @@ This skill is a thin layer on the `council` skill. Load `council` with the Skill
 
 ## Setup (once)
 
-Pick a climb folder, for example `design/climb/`, and put a `rubric.json` in it. Start from `templates/rubric.json` beside this file:
+Run this when asked to set up ui-climb, or when a round is asked for and there is no `rubric.json` yet. Ask the user only what the code can't tell you, and stop after step 6: never start a round unasked.
 
-- `product`: the key your design is scored under in each cell. Every other key in a cell is a benchmark app.
-- `categories`: what each cell is scored on, 1 to 10.
-- `rules`: pass/fail rules. One broken rule fails the round.
-- `flows`: the task flows, `flow:<id>` to a one-line task.
-- `maxRounds` (the climb stops there), `driftLimit` (how far a benchmark score may move from round 1), and `skip` (a category to the cells it does not apply to).
+1. **Install.** Make sure this skill and `council` are both in the project's `.claude/skills/` (and `.agents/skills/` if the user runs Codex). If `council` is missing, copy it from `skills/council` in https://github.com/myn/ui-climb.
+2. **Check what's needed**, and give the user the exact fix for anything missing:
+   - `node -v` is 22.18 or newer (the scripts are `.ts` files Node runs directly);
+   - both judges are reachable. In T3 Code, `orchestrator_capabilities` lists a Claude Opus and a GPT Sol model. Elsewhere, `codex --version` works and Codex is logged in (`codex login` if not);
+   - Playwright is installed in the project, or can be (`npm i -D playwright`; a Chromium-based browser the machine already has, such as Edge or Chrome, saves a browser download).
+3. **Ask about the product**, in one message: what it is and who uses it; which apps it must beat, and where their screenshots are (or whether to capture them); its surfaces (screen groups) and the task flows to walk; any pass/fail rules; which themes it ships. Read the code first, and propose answers for the user to correct rather than asking blank.
+4. **Write the rubric.** Make the climb folder (default `design/climb/`) and write `rubric.json` from `templates/rubric.json` beside this file:
+   - `product`: the key your design is scored under in each cell. Every other key in a cell is a benchmark app.
+   - `categories`: what each cell is scored on, 1 to 10. Keep the template's unless the user wants others.
+   - `rules`: pass/fail rules. One broken rule fails the round.
+   - `flows`: the task flows, `flow:<id>` to a one-line task.
+   - `maxRounds` (the climb stops there), `driftLimit` (how far a benchmark score may move from round 1), and `skip` (a category to the cells it does not apply to).
+5. **Write the screenshot script.** Work out how the UI runs (dev server, Storybook, a static atlas, an Electron build) and write one script that takes a design name, an output folder and state IDs, and saves each state at true size in every theme as `<state>-<theme>.png`. If a rule is about fonts, it also saves every computed font family to `fonts.json`. Write the list of states per surface and the states each flow walks, in order, next to it. Run it once into a scratch folder and show the user a few PNGs.
+6. **Hand over.** Tell the user what was set up, and that "run a ui-climb round" starts round 1.
 
 Each design gets its own folder under the climb folder: `design/climb/<design>/round-NN/`.
 
@@ -43,7 +52,7 @@ In T3 Code, call `orchestrator_capabilities` once, then start both judges with `
 1. `screens/`: the screenshots scored, at true size, in every theme you ship (for example `-dark.png` and `-light.png`). Shoot them from the real build or a static atlas with a script (Playwright works), never by hand, so every round is shot the same way. If a rule is about fonts, have the script list every computed font family and save it as `fonts.json`, so the rule is checked, not eyeballed. Benchmark screens are referenced where they are kept, never copied into the round.
 2. `brief.md`: the one brief both judges got, word for word. Build it from `rubric.json` and `templates/brief.md`: what the product is, the screens per cell (with a one-line caption on any frame whose change is the point), the categories, the rules, and the reply format. **Never put the target score or the stop rule in it**: no "9", no "target", no "to pass". A judge who knows the bar grades to it.
 3. `scores-claude.json`, `scores-codex.json`: each reply, parsed into `{ reviewer, model, cells: { <cell>: { <product>: {<category>: 1-10}, <app>: {...} } }, rules: {<rule>: true|false}, findings: [...] }`. Every category for your design and for each benchmark app on that cell. Keep the raw replies (`reply-claude.md`, `reply-codex.md`).
-4. `round.json`: `{ design, round, date, claim, screens, rules, features }`. `rules` is false if either judge (or `fonts.json`) breaks it. `features` maps each feature in scope to the screen IDs that show it; an empty list fails the round, so no feature goes unscored. `claim` is the verdict `node scripts/climb.ts <climb>/<design>` prints, never your own call.
+4. `round.json`: `{ design, round, date, claim, screens, rules, features }`. `rules` is false if either judge (or `fonts.json`) breaks it. `features` maps each feature in scope to the screen IDs that show it; an empty list fails the round, so no feature goes unscored. `claim` is the verdict `node <this skill>/scripts/climb.ts <climb>/<design>` prints, never your own call.
 5. `README.md`: what was scored, the verdict and why, the useful findings, the disagreements, and the score table (one column per round so far; a cell's score is the mean over its categories).
 
 Commit every round.
@@ -82,7 +91,7 @@ The judges are authoritative: where a signed contract differs from your design d
 
 ## Verdict
 
-`node scripts/climb.ts <climb>/<design>` (beside this file) decides it from the saved files:
+`node <this skill>/scripts/climb.ts <climb>/<design>` (for example `.claude/skills/ui-climb/scripts/climb.ts`) decides it from the saved files:
 
 - **void**: a benchmark score moved more than `driftLimit` from round 1.
 - **fail**: a broken rule, or a feature without a screen.
